@@ -11,7 +11,7 @@ const categoryRoutes = require('./routes/categoryRoutes');
 const customerdataRoutes = require('./routes/customerdataRoutes');
 
 // Initialize the app 
-const app = express();
+const app = express(); 
  
 // Middlewares
 app.use(cors());
