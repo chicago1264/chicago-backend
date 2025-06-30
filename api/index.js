@@ -12,7 +12,7 @@ const customerdataRoutes = require('./routes/customerdataRoutes');
 
 // Initialize the app 
 const app = express();
-
+ 
 // Middlewares
 app.use(cors());
 app.use(bodyParser.json());
